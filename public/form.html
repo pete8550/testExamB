@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lav en ny smartpærer!</h1>
+    <hr>
+    <form action="/api/lightbulb_create" method="POST">
+        <input placeholder="Status" name="create_lightbulb_status"/>
+        <input placeholder="Nomineret forbrug" name="create_lightbulb_nominal_consume"/>
+        <input placeholder="Aktuel forbrug" name="create_lightbulb_actual_consume"/>
+        <input placeholder="Intensitet" name="create_lightbulb_intensity"/>
+        <input placeholder="Farve" name="create_lightbulb_color"/>
+        <input placeholder="Hardware typenummer" name="create_lightbulb_hardware_typenumber"/>
+        <input placeholder="Version" name="create_lightbulb_version"/>
+        <button>Opret</button>
+    </form>
+
+</body>
+</html>

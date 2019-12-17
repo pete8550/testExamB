@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="doCookie()">
+    <h1>Table til IKEA's smartpærer (dummy data)</h1>
+    <hr>
+    <table class="dummytable">
+        <th>Status</th>
+        <th>Nomineret forbrug</th>
+        <th>Aktuel forbrug</th>
+        <th>Intensitet</th>
+        <th>Farve</th>
+        <th>Hardware type nummer</th>
+        <th>Software Version</th>
+
+        <tr>
+            <td>1</td>
+            <td>340</td>
+            <td>180</td>
+            <td>20</td>
+            <td>Magenta</td>
+            <td>LB1IKEA</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>340</td>
+            <td>220</td>
+            <td>40</td>
+            <td>Blue</td>
+            <td>LB2IKEA</td>
+            <td>1.2</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <h3><u>Table med ÆGTE data fra databasen</u></h3>
+
+    <table id="myTable" class="realtable">
+        <tr>
+                <th>Status</th>
+                <th>Nomineret forbrug</th>
+                <th>Aktuel forbrug</th>
+                <th>Intensitet</th>
+                <th>Farve</th>
+                <th>Hardware type nummer</th>
+                <th>Software Version</th>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+    <br>
+    <p id="date" class="date"></p>
+    <script src="dateScript.js"></script>
+    <script src="cookies.js"></script>
+    
+</body>
+</html>
